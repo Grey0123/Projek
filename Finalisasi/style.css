@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html{
+    width: auto;
+    height: auto;
+}
+.container{
+    background-color: chocolate;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+}
+#delivery-free{
+    width: initial;
+}
+.delivery{
+    margin-left: 100%;
+    margin-right: 100%;
+    width: 200px;
+    height: 100px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.judul{
+    color: white;
+    font-size: 50px;
+    padding-left: 10px;
+    
+}
+
+#box{
+    display: flex;
+    align-content: center;
+    
+}
+#ul{
+    padding: 0;
+    align-content: center;
+    width: 100%;
+    background-color: orange;
+}
+#li{
+    display: inherit;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 600px;
+}
+.arrow1{
+    transform: rotate(90deg);
+    width: 50px;
+}
+.arrow2{
+    transform: rotate(270deg);
+    width: 50px;
+}
+button{
+    border: none;
+    background-color: orange;
+    height: auto;
+    align-items: center;
+}
+nav{
+    background-color: orange;
+    
+    
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;  
+    width: 20%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+nav ul li ul{
+    display: none;
+    background-color: burlywood;
+    position: absolute;
+    width: inherit;
+    margin-top: 13px;
+}
+
+nav ul li ul li{
+    display: block;
+    width: auto;
+    text-align: center;
+    
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+.gambar{
+    height: 600px;
+    width: 100%;
+    background-image:url(kopi.jpg);
+    background-repeat:round;
+}
+
+.recom{
+    margin: 30px;
+}
+
+.sub{
+    margin-bottom: 30px;
+    align-items: center;
+}
+.line{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subline{
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: ridge;
+    border-color: blanchedalmond;
+
+}
+#home{
+    text-decoration: underline;
+    color: black;
+}
+.food{
+    width: 100%;
+    height: 55%;
+    margin-bottom: 10px;
+}
+footer{
+    background-color:rgb(1, 59, 59);
+    color: white;
+    height: 300px;
+}
+
+.dec{
+    text-decoration: none;
+    color: black;
+}
+
+footer ul{
+    text-align: center;
+    
+}
+footer ul li{
+    display: inline-block;  
+    width: 30%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+footer ul li ul{
+    width: inherit;
+    position: absolute;
+    margin-top: 20px;
+}
+
+footer ul li ul li{
+    display: flex;
+    width: auto;
+    padding: 4px;
+    align-items: center;
+    
+}
+footer ul li ul li img{
+    width: 50px;
+    height: 50px;
+}
+footer ul li ul li h5{
+    padding-left: 10px;
+}
+
+
+
+
+/* header{
+    white-space: nowrap;
+}
+.container{
+    background-color: chocolate;
+}
+.logo{
+    width: 100px;
+}
+.judul{
+    font-size: 75px;
+    white-space: nowrap;
+    display: inline;
+    color: white;
+    
+    vertical-align: 25px;
+    
+}
+.menu{
+    width: 40px;
+    padding: 7px;
+}
+.nav{
+    background-color:orange;
+    position:relative;
+    bottom:5px;
+}
+.page{
+    
+    font-size: 40px;
+    display:inline;
+    color: white;
+    vertical-align: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.gambar{
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+.semua-gambar::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.kopi img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    margin-top: 1%;
+
+}
+
+footer{
+    background-color: chocolate;
+    
+}
+.foot{
+    font-size: 32px;
+    display: inline-flex;
+    padding-left: 13%;
+    padding-top: 3%;
+    
+} */
